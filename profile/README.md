@@ -27,10 +27,21 @@ AI-powered platform to extract, structure and analyze financial data.
 
 | Repo | Stack | Live | Description |
 |---|---|---|---|
-| [`feen-api`](https://github.com/nuva-be/feen-api) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | Docker / GCP | Extraction, matching & classification engine |
-| [`feen-app`](https://github.com/nuva-be/feen-app) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) | Docker | Financial intelligence dashboard |
+| [`feen-api`](https://github.com/nuva-be/feen-api) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | [api.feen.be](https://api.feen.be) | Extraction, matching & classification engine |
+| [`feen-app`](https://github.com/nuva-be/feen-app) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) | [admin.feen.be](https://admin.feen.be) | Financial intelligence dashboard |
 | [`feen-landing`](https://github.com/nuva-be/feen-landing) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | [feen.be](https://www.feen.be) | Marketing site |
 | [`feen-ios`](https://github.com/nuva-be/feen-ios) | ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) | — | Mobile app — financial data capture |
+
+**Feen DNS map:**
+
+| Subdomain | Target | Service |
+|---|---|---|
+| [www.feen.be](https://www.feen.be) | Netlify | Landing page |
+| [admin.feen.be](https://admin.feen.be) | GCP (Cloud Run) | Dashboard app |
+| [api.feen.be](https://api.feen.be) | GCP (Cloud Run) | Backend API |
+| [processor.feen.be](https://processor.feen.be) | GCP (Cloud Run) | Document processor |
+| [help.feen.be](https://help.feen.be) | GCP (Cloud Run) | Help center |
+| [docs.feen.be](https://docs.feen.be) | GCP (Cloud Run) | API documentation |
 
 ---
 
@@ -72,7 +83,7 @@ AI-powered platform to extract, structure and analyze financial data.
 | Platform | Sites |
 |---|---|
 | **Netlify** | [feen.be](https://www.feen.be) &middot; [pizzeriaroma-anderlecht.be](https://pizzeriaroma-anderlecht.be) &middot; [aremis.netlify.app](https://aremis.netlify.app) &middot; [aremisb.netlify.app](https://aremisb.netlify.app) &middot; [qlame.netlify.app](https://qlame.netlify.app) &middot; [pixl-kb.netlify.app](https://pixl-kb.netlify.app) |
-| **Docker / GCP** | feen-api &middot; feen-app &middot; aremis-gsk |
+| **GCP (Cloud Run)** | [api.feen.be](https://api.feen.be) &middot; [admin.feen.be](https://admin.feen.be) &middot; [processor.feen.be](https://processor.feen.be) &middot; [help.feen.be](https://help.feen.be) &middot; [docs.feen.be](https://docs.feen.be) &middot; aremis-gsk |
 
 ---
 
