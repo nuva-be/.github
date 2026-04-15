@@ -62,7 +62,7 @@ AI-powered platform to extract, structure and analyze financial data.
 | [`pixl-web`](https://github.com/nuva-be/pixl-web) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) | — | AI website builder |
 | [`pixl-seo`](https://github.com/nuva-be/pixl-seo) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | — | Automated SEO content engine |
 | [`pixl-marketing`](https://github.com/nuva-be/pixl-marketing) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | [qlame.netlify.app](https://qlame.netlify.app) | AI marketing content generator |
-| [`pixl-branding`](https://github.com/nuva-be/pixl-branding) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | — | Logo generation & brand assets |
+| [`pixl-branding`](https://github.com/nuva-be/pixl-branding) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | [pixl-branding.netlify.app](https://pixl-branding.netlify.app) | Logo generation & brand assets |
 | [`learn-vllm`](https://github.com/nuva-be/learn-vllm) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | — | vLLM local AI inference lab |
 
 ---
