@@ -30,7 +30,7 @@ AI-powered platform to extract, structure and analyze financial data.
 | [`feen-api`](https://github.com/nuva-be/feen-api) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | [api.feen.be](https://api.feen.be) | Extraction, matching & classification engine |
 | [`feen-app`](https://github.com/nuva-be/feen-app) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) | [admin.feen.be](https://admin.feen.be) | Financial intelligence dashboard |
 | [`feen-landing`](https://github.com/nuva-be/feen-landing) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | [feen.be](https://www.feen.be) | Marketing site |
-| [`feen-ios`](https://github.com/nuva-be/feen-ios) | ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) | — | Mobile app — financial data capture |
+| [`feen-mobile`](https://github.com/nuva-be/feen-mobile) | ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) | — | Mobile app — financial data capture |
 
 **Feen DNS map:**
 
