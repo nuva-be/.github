@@ -9,12 +9,7 @@
 </div>
 
 Nuva builds governed AI systems that help teams turn company context into
-clear decisions and controlled execution. The platform is developed privately;
-selected development tooling is published separately.
-
-## Open source
-
-- [`pixl-crew`](https://github.com/nuva-be/pixl-crew) — portable agent skills
-  and development workflows used to plan, build, review and deliver software.
+clear decisions and controlled execution. The platform and its development
+tooling are maintained privately.
 
 Nuva is based in Brussels, Belgium.
